@@ -1,6 +1,9 @@
 void setup(){
   size(500, 500);
   background(#f9e4b7);
+  PFont.list();
+  createFont("Helvetica", 16);
+  createFont("Helvetica", 32);
 }
 
 void draw(){
@@ -9,6 +12,8 @@ void draw(){
   
   text("MADLIB", 30, 470);
   text("SHADES OF BLUE", 340, 470);
+  
+  noStroke();
   
   fill(0, 0, 160);
   rect(30, 30, 440, 110);
